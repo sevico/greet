@@ -6,9 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-"bin" : {
-  "greet" : "./bin/greet.js"
-},
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
   "author": "swk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
